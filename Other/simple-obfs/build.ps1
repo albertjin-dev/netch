@@ -15,7 +15,7 @@ if ( -Not $? ) {
     exit $lastExitCode
 }
 
-cp -Force '.\src\obfs-local.exe' '..\..\release\simple-obfs.exe'
+cp -Force '.\simple-obfs.exe' '..\..\release\simple-obfs.exe'
 
 Pop-Location
 rm -Recurse -Force src
